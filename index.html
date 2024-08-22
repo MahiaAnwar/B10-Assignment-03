@@ -4,8 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RINTERIO</title>
+    <!-- MANROPE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/8f3f69e7c2.js" crossorigin="anonymous"></script>
+    <!-- DAISY-UI CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- TAILWIND CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+<script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford:'#da373d',
+                'arrow-color':'rgb(171, 239, 95)',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- style -->
+       <style>
+        .manrope{
+            font-family: "Manrope", sans-serif;
+        }
+        .bg-color{
+            background-color: rgb(171, 239, 95);
+        }
+        .arrow-btn{
+            border-radius: 32px;
+        }
+       </style>
 </head>
-<body>
-    
+<body class="manrope">
+    <!-- header -->
+     <header class="md:container md:mx-auto m-3 bg-sky-50">
+        <!-- NAVBAR -->
+        <nav>
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-arrow-right -rotate-45 bg-color arrow-btn p-2"></i>
+                        <a class="btn btn-ghost text-xl font-bold">Rinterio</a>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="flex space-x-10">
+                      <li><a class="font-bold">Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden lg:flex space-x-2">
+                            <i class="fa-solid fa-magnifying-glass text-gray-500 arrow-btn bg-white p-5"></i>
+                            <i class="fa-solid fa-cart-shopping text-gray-500 arrow-btn bg-white p-5"></i>
+                            <button class="btn bg-color arrow-btn">Book Consult <i  class="fa-solid fa-arrow-right -rotate-45 bg-color arrow-btn p-2 bg-black text-arrow-color arrow-btn"></i>
+                            </button>
+                        </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn arrow-btn bg-white lg:hidden p-4">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                        </div>
+                </div>
+            </div>
+        </nav>
+     </header>
+     <!-- main -->
+      <main></main>
+      <!-- footer -->
+       <footer> </footer>
 </body>
 </html>
