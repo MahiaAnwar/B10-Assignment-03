@@ -50,6 +50,20 @@
         .blue{
             background-color: #77AAEA;
         }
+        .project{
+            background-image: url('./assets/images/bg.jpg');
+        }
+        .project input{
+            padding: 12px;
+        }
+        #pro-message::placeholder{
+            position: absolute;
+            top: 12px;
+        }
+        .choose{
+            background-image: url('/assets/images/article3.png');
+            width: 100%;
+        }
        </style>
 </head>
 <body class="manrope">
@@ -75,8 +89,8 @@
                 </div>
                 <div class="navbar-end">
                     <div class="hidden lg:flex space-x-2">
-                            <i class="fa-solid fa-magnifying-glass text-gray-500 arrow-btn bg-white p-5"></i>
-                            <i class="fa-solid fa-cart-shopping text-gray-500 arrow-btn bg-white p-5"></i>
+                            <i class="fa-solid fa-magnifying-glass text-gray-500 arrow-btn border-2 border-white bg-gray-50 p-5"></i>
+                            <i class="fa-solid fa-cart-shopping text-gray-500 arrow-btn border-2 border-white bg-gray-50 p-5"></i>
                             <button class="btn bg-color arrow-btn">Book Consult <i  class="fa-solid fa-arrow-right -rotate-45 bg-color arrow-btn p-2 bg-black text-arrow-color arrow-btn"></i>
                             </button>
                         </div>
@@ -108,7 +122,7 @@
              <!-- TEXT -->
               <div>
                 <h1 class="text-center lg:text-[64px] text-[18px] font-extrabold">A barn house of this design has a <br> striking appearance</h1>
-                <p class="text-center font-semibold text-[10px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents,<br>and large windows that flood the space with natural light.</p>
+                <p class="text-center font-bold mt-3 text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents,<br>and large windows that flood the space with natural light.</p>
               </div>
               <div class="flex justify-center">
                 <button class="btn bg-color arrow-btn border-2 border-lime-400 lg:mt-[32px] lg:mb-[120px] mt-2 mb-5">View Details <i  class="fa-solid fa-arrow-right -rotate-45 arrow-btn p-2 bg-lime-600 opacity-60 text-arrow-color"></i>
@@ -118,13 +132,13 @@
           <!-- BANNER ENDS -->
      </header>
      <!-- MAIN STARTS -->
-      <main>
+      <main class=" bg-base-200">
         <!-- WE DESIGN -->
         <div>
-            <div class="hero bg-base-200">
+            <div class="hero">
                 <div class="hero-content justify-center flex-col-reverse lg:flex-row-reverse">
                     <!-- IMAGE -->
-                    <img
+                    <img class="lg:mt-16 lg:ml-5"
                       src="assets/images/Rectangle.png" />
                       <!-- CARD -->
                     <div>
@@ -136,8 +150,8 @@
                             </button>
                         </div>
                         <div class="flex flex-col justify-center">
-                                <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
-                                <p class="py-6">The barn house captivates with its blend of rustic charm and sleek metal accents.</p>
+                                <h1 class="text-xl lg:text-5xl font-extrabold text-center">We design thoughtful, liveable spaces</h1>
+                                <p class="py-6">Home is where love resides, memories are created, friends always belong, and laughter never ends.</p>
                                 <!-- CARD CONTENT -->
                                 <div class="card card-side bg-base-100">
                                     <figure class="p-3">
@@ -147,7 +161,7 @@
                                     </figure>
                                     <div class="card-body">
                                     <h2 class="card-title">Commercial</h2>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                    <p>The best businesses are built on a foundation of strong relationships and a commitment to excellence.</p>
                                     </div>
                                 </div>
                                 <div class="mt-5 card card-side bg-base-100">
@@ -158,7 +172,7 @@
                                     </figure>
                                     <div class="card-body">
                                     <h2 class="card-title">Residential</h2>
-                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                    <p>In every home, love and laughter should flow as freely as light and air.</p>
                                     </div>
                                 </div>
                         </div>
@@ -167,51 +181,174 @@
               </div>
         </div>
         <!-- WORK PROGRESS -->
-        <section class="my-24">
+        <section class="lg:px-[235px] py-[70px]">
             <!-- title -->
              <div class="text-center mb-8">
                 <button class="btn arrow-btn bg-white"> <i  class="fa-solid fa-arrow-right"></i>How we works
                 </button>
-                <h1 class="mb-5 text-3xl mb:text-4xl font-bold">How we works</h1>
-                <p>The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+                <h1 class="mb-5 text-3xl mb:text-4xl lg:text-5xl font-bold mt-5">How we works</h1>
+                <p>We start by understanding your needs and assessing the damage. This includes a thorough inspection and discussion to capture your vision and requirements.</p>
              </div>
              <!-- grid card -->
-              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-2">
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <!-- product card -->
                  <div class="card lavender m-6 lg:w-64 lg:m-24">
-                    <img class="pt-4 w-16 pl-4" src="assets/images/concept.png" alt="">
+                    <img class="pt-8 w-16 pl-6" src="assets/images/concept.png" alt="">
                     <div class="card-body">
                         <h1 class="font-extrabold text-xl">Concept</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p>Innovation is the ability to see change as an opportunity, not a threat.</p>
                     </div>
                  </div>
                  <div class="card yellow lg:w-64 m-6 lg:m-24">
-                    <img class="pt-4 w-16 pl-4" src="assets/images/flow-chart.png" alt="">
+                    <img class="pt-8 w-16 pl-6" src="assets/images/flow-chart.png" alt="">
                     <div class="card-body">
                         <h1 class="font-extrabold text-xl">Design Process</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p>Good design is all about making something that works well and looks beautiful.</p>
                     </div>
                  </div>
                  <div class="card pastel lg:w-64 m-6 lg:m-24">
-                    <img class="pt-4 w-16 pl-4" src="assets/images/vision.png" alt="">
+                    <img class="pt-8 w-16 pl-6" src="assets/images/vision.png" alt="">
                     <div class="card-body">
                         <h1 class="font-extrabold text-xl">Supervision</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p>A great supervisor fosters a culture of collaboration, where every team member feels valued and heard.</p>
                     </div>
                  </div>
                  <div class="card blue lg:w-64  m-6 lg:m-24">
-                    <img class="pt-4 w-16 pl-4" src="assets/images/budget-planning.png" alt="">
+                    <img class="pt-8 w-16 pl-6" src="assets/images/budget-planning.png" alt="">
                     <div class="card-body">
                         <h1 class="font-extrabold text-xl">Budget Planning</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p>Effective budgeting involves regularly revisiting and adjusting your plans to stay aligned with your goals.</p>
                     </div>
                  </div>
               </div>
-          </section>
+        </section>
       </main>
       <!-- MAIN ENDS -->
+       <!-- ARTICLE STARTS -->
+        <article class="lg:bg-white bg-base-200">
+            <!-- Choose -->
+                <div class="hero min-h-screen choose">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-neutral-content text-center">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-4xl font-extrabold text-white">Why you Choose us?</h1>
+                            <p class="mb-5">~Everything you need—on a budget🤩~</p>
+                            <div class="flex justify-center">
+                                <button class="btn bg-color arrow-btn">To know more <i  class="fa-solid fa-arrow-right -rotate-45 bg-color arrow-btn p-2 bg-black text-arrow-color arrow-btn"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- LATEST PORTFOLIO CARDS-->
+                <div class="lg:px-[235px] py-[40px] mx-3">
+                    <div class="flex justify-center mt-5">
+                        <button class="btn bg-green-100 arrow-btn font-extrabold"> <i  class="fa-solid fa-arrow-right"></i>Explore our Latest works
+                        </button>
+                    </div>
+                    <h1 class="text-center lg:text-5xl my-2 font-extrabold">Our Latest Portfolio</h1>
+                    <p class="text-center font-semibold lg:text-[15px] my-5">Every project in our latest portfolio reflects our commitment to delivering exceptional quality and vision.</p>
+                    <div class="grid grid-cols-1 lg:grid-cols-4">
+                        <div class="col-span-3 mb-2">
+                          <div class="hero bg-white rounded-xl">
+                            <div class="hero-content flex-col lg:flex-row border-2 border-gray-300 rounded-xl">
+                              <img
+                                src="assets/images/img1.png"
+                                class="rounded-lg w-[387px] lg:max-w-full" />
+                              <div>
+                                <h1 class="font-extrabold">Commercial</h1>
+                                <p class="py-6">
+                                    A commercial space should reflect the values and aspirations of the business it houses.
+                                </p>
+                                <a class="font-extrabold">View Details <i  class="fa-solid fa-arrow-right -rotate-45 arrow-btn p-2 bg-lime-500 ml-2"></i>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:ml-5 border-2 border-gray-300 rounded-xl lg:h-[215px] mb-2 bg-white">
+                        <figure class="m-2">
+                            <img class="w-full h-[190px]" src="assets/images/img2.png" alt="home" />
+                        </figure>
+                    </div>
+                    </div>
+                <!-- 2 -->
+                    <div class="grid grid-cols-1 lg:grid-cols-4">
+                        <div class="lg:me-5 border-2 border-gray-300 rounded-xl lg:h-[260px] mb-2 bg-white">
+                            <figure class="m-2">
+                                <img class="w-full h-[240px]" src="assets/images/img3.png" alt="home" />
+                            </figure>
+                        </div>
+                        <div class="col-span-2 mb-2">
+                            <div class="hero bg-white rounded-xl">
+                                <div class="hero-content flex-col lg:flex-row border-2 border-gray-300 rounded-xl">
+                                <img
+                                    src="assets/images/img4.png"
+                                    class="rounded-lg w-[387px] lg:max-w-full" />
+                                <div>
+                                    <h1 class="font-extrabold">Commercial</h1>
+                                    <p class="py-6">
+                                        The best businesses are built on a foundation of strong relationships and a commitment to excellence.
+                                    </p>
+                                    <a class="font-extrabold">View Details <i  class="fa-solid fa-arrow-right -rotate-45 arrow-btn p-2 bg-lime-500 ml-2"></i>
+                                    </a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:ml-5 border-2 border-gray-300 rounded-xl lg:h-[260px] bg-white">
+                            <figure class="m-2">
+                                <img class="w-full h-[240px]" src="assets/images/img5.png" alt="home" />
+                            </figure>
+                        </div>
+                    </div>
+            </div> 
+
+            <!-- Next Project -->
+             <div class="project">
+                <div class="lg:px-[235px] py-[100px]">
+                    <div class="flex justify-center mt-5">
+                        <button class="btn bg-green-100 arrow-btn font-extrabold"> <i  class="fa-solid fa-arrow-right"></i>Let’s Connect
+                        </button>
+                    </div>
+                    <h1 class="text-center lg:text-5xl my-2 font-extrabold">Let’s Discuss Next Project</h1>
+                    <p class="text-center font-semibold lg:text-[15px] my-5">Exciting things are coming up! Get ready to see what we have in store for our next big project.</p>
+                    <div class=" grid grid-cols-1 lg:grid-cols-2 gap-4 mx-3">
+                        <input class="border-2 rounded-2xl h-9" type="text" placeholder="First name*">
+                        <input class="border-2 rounded-2xl h-9" type="text" placeholder="Last name*">
+                        <input class="border-2 rounded-2xl h-9" type="text" placeholder="Phone number*">
+                        <input class="border-2 rounded-2xl h-9" type="text" placeholder="Email*">
+                        <input id="pro-message" class="border-2 rounded-2xl h-80 lg:col-span-2" type="text" placeholder="Write your Message here*">
+                        <button class="btn bg-color arrow-btn lg:col-span-2 font-extrabold">Send Mail<i  class="fa-solid fa-arrow-right -rotate-45 bg-color arrow-btn p-2 bg-black text-arrow-color arrow-btn"></i>
+                        </button>
+                    </div>
+                </div>
+             </div>
+        </article>
+        <!-- ARTICLE ENDS -->
       <!-- FOOTER STARTS -->
-       <footer> </footer>
+       <footer class="bg-black">
+            <div class="lg:px-[235px] py-[100px]">
+                <div class="flex justify-center">
+                    <div>
+                        <i class="fa-solid fa-arrow-right -rotate-45 bg-color arrow-btn p-2"></i>
+                        <a class="btn btn-ghost text-xl font-bold text-white">Rinterio</a>
+                    </div> 
+                </div>
+                <p class="text-center font-semibold text-[15px] text-white">Join us as we embark on our next project, where your ideas and input could shape something extraordinary.</p>
+                <ul class="grid grid-cols-1 lg:grid-cols-5 my-9 text-white text-center">
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Portfolio</a></li>
+                   <li><a href="#">Blogs</a></li>
+                   <li><a href="#">Contact Us</a></li> 
+                </ul>
+                <div class="flex justify-center">
+                    <button class="btn bg-color arrow-btn">Book Consult <i  class="fa-solid fa-arrow-right -rotate-45 bg-color arrow-btn p-2 bg-black text-arrow-color arrow-btn"></i>
+                    </button>
+                </div>
+            </div>
+       </footer>
        <!-- FOOTER ENDS -->
 </body>
 </html>
